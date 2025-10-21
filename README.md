@@ -36,7 +36,7 @@ El proyecto incluye un **panel de administración** para gestionar usuarios, rol
 - 🏆 Sistema de logros y experiencia  
 - 💰 Gestión de fichas: ingresos y retiradas simuladas  
 - 📜 Historial de partidas  
-- ✉️ Verificación de correo y recuperación de contraseña  
+- ✉️ Verificación de correo
 - ⚙️ Roles y permisos dinámicos  
 - 🧪 Pruebas con PHPUnit
 
