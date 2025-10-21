@@ -1,89 +1,63 @@
-# Requisitos
-Se recomienda usar Laragon
+# 🎰 Royal Flush Casino
 
-- ✅ PHP 8.2 o mayor (php -v)
-- ✅ Composer (composer -v)
-- ✅ Node JS (node -v)
+Proyecto final del ciclo **Desarrollo de Aplicaciones Web (DAW)**.  
+Desarrollado en equipo por **Alex Cobas** y **David Ragus** como prototipo de un **casino online** completo y funcional.
 
+El objetivo principal del proyecto fue **aprender y aplicar al máximo** las tecnologías vistas en el ciclo, desarrollando un sistema de usuario, panel de administración, juegos de casino y comunicación en tiempo real.
 
+---
 
-# Características
+## 🧠 Descripción del proyecto
 
-Ejemplo proyecto Laravel 10 + vue3 PAra DAW
+Royal Flush Casino es una aplicación web que simula un casino online.  
+Permite a los usuarios registrarse, gestionar fichas virtuales, unirse a salas de juego (como bingo), obtener logros y acceder a su historial de partidas.  
+El proyecto incluye un **panel de administración** para gestionar usuarios, roles, permisos, juegos y logros.
 
-- ✅ Laravel 10
-- ✅ Vue 3
-- ✅ VueRouter + Pinia
-- ✅ PrimeVue
-- ✅ Vue i18n Multi Idioma
-- ✅ Iniciar sesión
-- ✅ Restablecimiento de contraseña
-- ✅ Login
-- ✅ Panel de administración
-- ✅ Gestión de perfiles
-- ✅ Gestión de usuarios
-- ✅ Gestión de roles
-- ✅ Gestión de permisos (Spatie)
-- ✅ Cambio de contraseña
-- ✅ Verificación de correo electrónico
-- ✅ Gestión de Posts
-- ✅ Blog de Frontend
-- ✅ Boostrap 5
+---
 
+## ⚙️ Tecnologías principales
 
-## Como usar
+- **Laravel 10** — Backend y lógica de negocio  
+- **Vue 3 + PrimeVue** — Frontend dinámico y moderno  
+- **Pusher** — Comunicación en tiempo real  
+- **MySQL** — Base de datos  
+- **Spatie Permissions** — Gestión de roles y permisos  
+- **WebMailer** — Envío de correos automáticos  
+- **PHPUnit** — Pruebas de backend  
+- **Bootstrap 5** — Diseño de interfaz
 
+---
 
-### Clonar Repositorio 
+## 🧩 Características principales
 
+- 🔐 Login / Registro  
+- 🧑‍💼 Panel de administración completo (usuarios, roles, permisos, logros, juegos)  
+- 🎮 Juegos activables/desactivables (Bingo funcional)  
+- 🏆 Sistema de logros y experiencia  
+- 💰 Gestión de fichas: ingresos y retiradas simuladas  
+- 📜 Historial de partidas  
+- ✉️ Verificación de correo y recuperación de contraseña  
+- ⚙️ Roles y permisos dinámicos  
+- 🧪 Pruebas con PHPUnit
+
+> El desarrollo se hizo **en equipo**, compartiendo todas las tareas y decisiones, con el objetivo de aprender lo máximo posible juntos.
+
+---
+
+## 🧰 Requisitos técnicos
+
+Se recomienda usar **Laragon** o un entorno equivalente para desarrollo local.
+
+- ✅ PHP 8.2 o superior (`php -v`)  
+- ✅ Composer (`composer -v`)  
+- ✅ Node.js (`node -v`)  
+- ✅ MySQL o MariaDB
+
+---
+
+## 🚀 Instalación y uso
+
+### 1️⃣ Clonar el repositorio
 ```bash
-git clone ....
-```
-
-### Instalar vía Composer
-
-Entrar a la carpeta del repositorio
-```bash
-composer install
-```
-
-### Copiar el fichero .env.example  a .env edita las credenciales de la base de datos y la url
-
-
-### Generar Application Key
-
-```bash
-php artisan key:generate
-```
-
-### Migrar base de datos
-
-```bash
-php artisan migrate
-```
-
-### Lanzar Seeders
-
-```bash
-php artisan db:seed
-```
-
-### Instalar las dependencias de Node
-
-```bash
-npm install
-
-npm run dev
-```
-
-### Lanzar servidor
-
-```bash
-php artisan serve
-```
-
-### Lanzar a producción
-
-```bash
-npm run build or yarn build
-```
+git clone https://github.com/Acobasz/royal-flush-casino.git
+cd royal-flush-casino
